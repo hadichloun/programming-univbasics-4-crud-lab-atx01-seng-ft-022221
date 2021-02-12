@@ -1,27 +1,47 @@
-def using_push(array, string)
-  array.push(string)
+def create_an_empty_array
+  create_an_empty_array= []
 end
 
-def using_unshift(array, string)
-  array.unshift(string)
+def create_an_array
+  create_an_array= ['brian', 'gabby', 'tone', 'josh']
 end
 
-def using_pop(array)
+def add_element_to_end_of_array(array, element)
+  array=[]
+  array.push (element)
+end
+
+def add_element_to_start_of_array(array, element)
+  array=[]
+  array.unshift(element)
+end
+
+def remove_element_from_end_of_array(array)
+  array=["I", "am", "really", "learning", "arrays!"]
   element=array.pop
-  element
 end
 
-def pop_with_args(array)
-  elements=array.pop(2)
-  elements
-end
-
-def using_shift(array)
+def remove_element_from_start_of_array(array)
+  array=["wow", "I", "am", "really", "learning", "arrays!"]
   element=array.shift
-  element
 end
 
-def shift_with_args(array)
-  elements=array.shift(2)
-  elements
+def retrieve_element_from_index(array, index_number)
+  array=["wow", "I", "am", "really", "learning", "arrays!"]
+  array[index_number]
+end
+
+def retrieve_first_element_from_array(array)
+  array=["wow", "I", "am", "really", "learning", "arrays!"]
+  array[0]
+end
+
+def retrieve_last_element_from_array(array)
+  array=["wow", "I", "am", "really", "learning", "arrays!"]
+  array[5]
+end
+
+def update_element_from_index(array, index_number, element)
+  array=["wow", "I", "am", "really", "learning", "arrays!"]
+  array[index_number]=element
 end
