@@ -1,39 +1,28 @@
-def create_an_empty_array
+def using_push(array, string)
+  array.push(string)
+end
+
+def using_unshift(array, string)
+  array.unshift(string)
+end
+
+def using_pop(array)
+  element=array.pop
+  element
+end
+
+def pop_with_args(array)
+  elements=array.pop(2)
+  elements
+end
+
+def using_shift(array)
+  element=array.shift
+  element
+end
+
+def shift_with_args(array)
+  elements=array.shift(2)
+  elements
+end
   
-end
-
-def create_an_array
-  
-end
-
-def add_element_to_end_of_array(array, element)
-  
-end
-
-def add_element_to_start_of_array(array, element)
-  
-end
-
-def remove_element_from_end_of_array(array)
-  
-end
-
-def remove_element_from_start_of_array(array)
-  
-end
-
-def retrieve_element_from_index(array, index_number)
-  
-end
-
-def retrieve_first_element_from_array(array)
-  
-end
-
-def retrieve_last_element_from_array(array)
-  
-end
-
-def update_element_from_index(array, index_number, element)
-
-end
